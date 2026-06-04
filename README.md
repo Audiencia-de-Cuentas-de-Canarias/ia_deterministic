@@ -4,8 +4,7 @@ Con este proyecto, vamos a ejecutar un modelo de lenguaje de manera determinista
 
 ## Requisitos
 - Docker
-- Python 3.8 o superior
-
+- Python 3.10 o superior 
 
 ## Instrucciones
 
@@ -36,5 +35,5 @@ docker build -t llama-determinista .
 docker run -it --rm llama-determinista "¿Cuántos planetas hay en el sistema solar?"
 ```
 
-> Después de la ejecución, se queda el modo consola para introducir otro promopt.
+> Después de la ejecución, se queda el modo consola para introducir otro prompt.
 > Para salir de la ejecución pulsar `Ctrl + C`.
